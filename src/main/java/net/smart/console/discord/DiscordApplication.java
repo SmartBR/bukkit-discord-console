@@ -6,6 +6,7 @@ import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
 import net.smart.console.discord.command.ExecutorCMD;
+import net.smart.console.discord.command.PingCMD;
 import net.smart.console.discord.listener.UserMentionClientListener;
 import net.smart.console.discord.precommand.DiscordCommandLoader;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -36,6 +37,7 @@ public class DiscordApplication {
 
     private void loadCommands() {
         this.commandLoader.registerCommand(new ExecutorCMD());
+        this.commandLoader.registerCommand(new PingCMD());
     }
 
     private void loadListeners() {
