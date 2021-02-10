@@ -12,6 +12,6 @@ public class PingCMD extends DiscordCommandExecutor {
     public void execute(BukkitDiscordConsole plugin, User user, Message message, String label, String[] args) {
         long ping = message.getJDA().getGatewayPing();
 
-        message.getChannel().sendMessage(":ping_pong: **|** " + ping + ", **Pong!** " + ping + "ms").queue();
+        message.getChannel().sendMessage(":ping_pong: **|** " + user.getAsMention() + ", **Pong!** " + ping + "ms").queue();
     }
 }
