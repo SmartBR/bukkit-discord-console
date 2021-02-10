@@ -1,0 +1,17 @@
+# Other IDE files
+*.classpath
+*.project
+*.settings/
+.idea/*
+*.iml
+
+# Checkstyle-IDEA config
+!.idea/checkstyle-idea.xml
+
+# Build files
+./gradle
+jars/
+out/
+build/
+target/
+*.class

@@ -1,0 +1,15 @@
+# [bukkit-discord-console]: External bukkit console!
+
+token: "XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"
+prefix: "_"
+
+activity:
+  # 0 -> PLAYING, 2 -> LISTENING, 3 -> WATCHING
+  type: 0
+  message: "github.com/SmartBR/bukkit-discord-console"
+
+messages:
+  user-no-permission: ":x: **|** {user}, you are not allowed to execute this command."
+  executor-success: ":white_check_mark: **|** {user}, success!"
+  executor-failed: ":x: **|** {user}, failed! **({error-message})**"
+  executor-usage: ":thinking: **|** Usage: ``{label} <command>``"

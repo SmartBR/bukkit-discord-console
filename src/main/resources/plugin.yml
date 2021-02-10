@@ -1,0 +1,7 @@
+name: bukkit-discord-console
+main: net.smart.console.BukkitDiscordConsole
+version: 1.0.0
+author: Smart
+description: External bukkit console!
+api-version: 1.0.0
+website: github.com/SmartBR/bukkit-discord-console
